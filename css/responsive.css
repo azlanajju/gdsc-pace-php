@@ -1,0 +1,93 @@
+@media (max-width:780px) {
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .menuBars {
+        display: block;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 60%;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        overflow: hidden;
+        height: 0;
+        transition: 0.5s;
+    }
+
+    .navBar a {
+        margin: 20px;
+        font-size: 20px;
+
+    }
+
+    #cancelBtn {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: 30px;        
+    }
+
+    #menuBars {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 60px;
+        font-size: 30px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .blog-img img {
+        max-width: 100px;
+    }
+
+    .gdscLogo img {
+        margin-top: 10px;
+    }
+
+    .gdscLogo p {
+        font-size: 11.5px;
+    }
+
+    .paceLogo img {
+        height: 60px;
+    }
+
+    .gridContent img {
+        height: 100px;
+        width: auto;
+    }
+
+    .home {
+        height:100vh;
+    }
+
+    .gridContent {
+        width: 95vw;
+    }
+
+    .gridContent h1 {
+        font-size: 20px;
+    }
+    .blogs{
+        width: 80vw;
+    }
+    .blogs-content  {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
